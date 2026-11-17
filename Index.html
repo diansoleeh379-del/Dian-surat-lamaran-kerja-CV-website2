@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #071a35, #164b75);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 650px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 35px;
+            margin-bottom: 12px;
+        }
+
+        h1 span {
+            color: #f4c542;
+        }
+
+        .subtitle {
+            color: #d5e3f0;
+            margin-bottom: 35px;
+            line-height: 1.6;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .card {
+            background: white;
+            color: #102b49;
+            padding: 22px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            background: #f4c542;
+        }
+
+        .card h3 {
+            font-size: 18px;
+        }
+
+        .number {
+            font-size: 25px;
+            font-weight: bold;
+            color: #c49b27;
+            margin-right: 15px;
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+        }
+
+        .arrow {
+            font-size: 25px;
+        }
+
+        footer {
+            margin-top: 35px;
+            color: #d5e3f0;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>MY <span>PORTFOLIO</span></h1>
+
+        <p class="subtitle">
+            SELAMAT DATANG DI HALAMAN UTAMA SAYA
+            <br>
+            Silakan pilih dokumen yang ingin dibuka
+        </p>
+
+        <div class="menu">
+
+            <!-- 1. SURAT LAMARAN KERJA -->
+            <a href="https://canva.link/d7wsbwcpx01tbvz"
+               target="_blank" class="card">
+
+                <div class="left">
+                    <span class="number">01</span>
+                    <h3>Surat Lamaran Kerja</h3>
+                </div>
+
+                <span class="arrow">➜</span>
+            </a>
+
+            <!-- 2. CV WEBSITE -->
+            <a href="https://diansoleeh379-del.github.io/cv-dian-yon-yon/"
+               target="_blank" class="card">
+
+                <div class="left">
+                    <span class="number">02</span>
+                    <h3>CV Website</h3>
+                </div>
+
+                <span class="arrow">➜</span>
+            </a>
+
+            <!-- 3. CV PPT -->
+            <a href="https://canva.link/gk9jox2f6romn5q"
+               target="_blank" class="card">
+
+                <div class="left">
+                    <span class="number">03</span>
+                    <h3>CV PPT</h3>
+                </div>
+
+                <span class="arrow">➜</span>
+            </a>
+
+        </div>
+
+        <footer>
+            © 2026 My Personal Portfolio
+            <br>
+            All Rights Reserved
+        </footer>
+
+    </div>
+
+</body>
+</html>
